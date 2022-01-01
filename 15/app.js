@@ -30,7 +30,7 @@ const ex1 = (file) => {
     }
   } 
 
-  console.log(`EX 14-1: The last number said is ${last} after 2020 rounds.`);
+  console.log(`EX 15-1: The last number said is ${last} after 2020 rounds.`);
 };
 
 const ex2 = (file) => {
@@ -59,15 +59,15 @@ const ex2 = (file) => {
     }
   } 
 
-  console.log(`EX 14-2: The last number said is ${last} after 30,000,000 rounds.`);
+  console.log(`EX 15-2: The last number said is ${last} after 30,000,000 rounds.`);
 };
 
 let startTime = performance.now();
 ex1(process.argv[2]);
 let endTime = performance.now();
-console.log(`Exercise 14-1 took ${(endTime - startTime).toPrecision(5)} milliseconds`);
+console.log(`Exercise 15-1 took ${(endTime - startTime).toPrecision(5)} milliseconds`);
 
 startTime = performance.now();
 ex2(process.argv[2]);
 endTime = performance.now();
-console.log(`Exercise 14-2 took ${(endTime - startTime).toPrecision(5)} milliseconds`);
+console.log(`Exercise 15-2 took ${(endTime - startTime).toPrecision(5)} milliseconds`);
