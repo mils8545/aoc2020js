@@ -1,4 +1,3 @@
-const { clear } = require("console");
 const { performance } = require("perf_hooks");
 
 const readFile = (readFile) => {
