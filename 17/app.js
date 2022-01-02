@@ -182,7 +182,7 @@ const ex1 = (file) => {
     cells = stepEX1(cells);
   }
 
-  console.log(`EX 18-1: There are ${cells.flat().flat().filter(cell => cell == "#").length} active cells after 6 cycles.`);
+  console.log(`EX 17-1: There are ${cells.flat().flat().filter(cell => cell == "#").length} active cells after 6 cycles.`);
 };
 
 const ex2 = (file) => {
@@ -195,7 +195,7 @@ const ex2 = (file) => {
     cells = stepEX2(cells);
   }
 
-  console.log(`EX 18-2: There are ${cells.flat().flat().flat().filter(cell => cell == "#").length} active cells after 6 cycles.`);
+  console.log(`EX 17-2: There are ${cells.flat().flat().flat().filter(cell => cell == "#").length} active cells after 6 cycles.`);
 };
 
 let startTime = performance.now();
